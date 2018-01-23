@@ -1,0 +1,24 @@
+{
+  "data_source_instance": "/home/eventsum/config/datasourceinstance.yaml",
+  "data_source_schema": "/home/eventsum/config/schema.json",
+  "log_config_file": "/home/eventsum/config/logconfig.json",
+  "database_name": "eventsum",
+  "event_batch_limit": 20,
+  "event_time_limit": 5,
+  "server_port": 8080,
+  "time_interval": 10,
+  "services": {
+    "default": {"service_id": 0},
+    "wish_fe": {"service_id": 1},
+    "wish_be": {"service_id": 2},
+    "merchant_fe": {"service_id": 3},
+    "merchant_be": {"service_id": 4}
+  },
+  "environments": {
+    "default": {"environment_id": 0},
+    "prod": {"environment_id": 1},
+    "dev": {"environment_id": 2},
+    "stage": {"environment_id": 3},
+    "sandbox": {"environment_id": 4}
+  }
+}
