@@ -12,7 +12,8 @@
     "wish_fe": {"service_id": 1},
     "wish_be": {"service_id": 2},
     "merchant_fe": {"service_id": 3},
-    "merchant_be": {"service_id": 4}
+    "merchant_be": {"service_id": 4},
+    "lemmings": {"service_id": 5}
   },
   "environments": {
     "default": {"environment_id": 0},
