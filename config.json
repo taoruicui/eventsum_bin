@@ -6,7 +6,7 @@
   "event_batch_limit": 20,
   "event_time_limit": 5,
   "server_port": 8080,
-  "time_interval": 10,
+  "time_interval": 1,
   "services": {
     "default": {"service_id": 0},
     "wish_fe": {"service_id": 1},
