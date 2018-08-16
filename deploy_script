@@ -1,0 +1,10 @@
+#!/bin/sh
+cd /Users/tcui/go/src/github.com/ContextLogic/eventsum/cmd/
+env GOOS=linux GOARCH=amd64 go build example.go
+mv example run_eventsum
+tar -zcvf run_eventsum.tar.gz run_eventsum
+mv run_eventsum.tar.gz /Users/tcui/eventsum_bin/eventsum_linux_amd64.tar.gz
+cd /Users/tcui/eventsum_bin/
+git add -u
+git commit -m "deploy new eventsum"
+git push
