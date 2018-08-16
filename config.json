@@ -3,7 +3,7 @@
   "data_source_schema": "/home/eventsum/config/schema.json",
   "log_config_file": "/home/eventsum/config/logconfig.json",
   "database_name": "eventsum",
-  "event_batch_limit": 20,
+  "event_batch_limit": 100,
   "event_time_limit": 5,
   "server_port": 8080,
   "time_interval": 1,
